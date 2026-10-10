@@ -31,10 +31,10 @@
 
       <!-- Desktop Navigation -->
       <nav class="d-none d-md-flex">
-        <a href="#platillos" class="nav-link text-cafe">Platillos</a>
-        <a href="#" class="nav-link text-cafe">Bebidas</a>
-        <a href="#" class="nav-link text-cafe">Acerca de</a>
-        <a href="#" class="nav-link text-cafe">Contacto</a>
+        <a href="#platillos" class="nav-link text-cafe-dark">Platillos</a>
+        <a href="#bebidas" class="nav-link text-cafe-dark">Bebidas</a>
+        <a href="#footer" class="nav-link text-cafe-dark">Acerca de</a>
+        <a href="#footer" class="nav-link text-cafe-dark">Contacto</a>
       </nav>
 
       <!-- Right Section -->
@@ -43,10 +43,10 @@
         <!-- <div class="d-none d-md-block me-3">
           <input type="text" class="form-control form-control-sm" placeholder="Search...">
         </div> -->
-        <!-- <a href="#" class="btn text-cafe d-none d-md-block">
+        <!-- <a href="#" class="btn text-cafe-dark d-none d-md-block">
           <i class="ri-login-circle-line"></i>
         </a> -->
-        <!-- <a href="#" class="btn text-cafe d-none d-md-block">
+        <!-- <a href="#" class="btn text-cafe-dark d-none d-md-block">
           <i class="ri-shopping-cart-2-line"></i>
         </a> -->
 
@@ -60,10 +60,10 @@
     <!-- Mobile Menu -->
     <div id="mobileMenu" class="d-md-none mt-2">
       <nav class="mb-3 d-flex flex-column align-items-center">
-        <a href="#platillos" class="nav-link text-cafe">Platillos</a>
-        <a href="#" class="nav-link text-cafe">Bebidas</a>
-        <a href="#" class="nav-link text-cafe">Acerca de</a>
-        <a href="#" class="nav-link text-cafe">Contacto</a>
+        <a href="#platillos" class="nav-link text-cafe-dark">Platillos</a>
+        <a href="#bebidas" class="nav-link text-cafe-dark">Bebidas</a>
+        <a href="#footer" class="nav-link text-cafe-dark">Acerca de</a>
+        <a href="#footer" class="nav-link text-cafe-dark">Contacto</a>
       </nav>
       <div class="mb-3">
         <!-- <a href="#" class="btn w-100 mb-2">
@@ -78,18 +78,17 @@
   </div>
 </header>
 
-<section>
-  <center id="platillos" class="mt-5 mb-4 text-amarillo">
+<section id="platillos">
+  <center class="mt-5 mb-4 text-amarillo">
     <h1>Platillos</h1>
   </center>
-
-  <div class="mx-3 d-flex flex-wrap justify-content-center gap-3">
+  <div class="mx-3 d-flex flex-wrap justify-content-evenly gap-3">
     <article class="card border border-3" style="width: 18rem;">
       <img src="img/sandwich_italiano.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Sandwich italiano</h5>
         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
       </div>
     </article>
 
@@ -98,7 +97,7 @@
       <div class="card-body">
         <h5 class="card-title">Sandwich italiano</h5>
         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
       </div>
     </article>
 
@@ -107,11 +106,55 @@
       <div class="card-body">
         <h5 class="card-title">Sandwich italiano</h5>
         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
       </div>
     </article>  
   </div>
-
 </section>
+
+<hr class="my-5 border border-3 border-crema">
+
+<section id="bebidas">
+  <center class="mt-5 mb-4 text-amarillo">
+    <h1>Bebidas</h1>
+  </center>
+  <div class="mx-3 d-flex flex-wrap justify-content-evenly gap-3">
+    <article class="card border border-3" style="width: 18rem;">
+      <img src="img/cafe.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Café capuccino</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+      </div>
+    </article>
+
+    <article class="card border border-3" style="width: 18rem;">
+      <img src="img/cafe.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Café latte</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+      </div>
+    </article>
+
+    <article class="card border border-3" style="width: 18rem;">
+      <img src="img/cafe.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Café mocha </h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+      </div>
+    </article>  
+  </div>
+</section>
+
+<footer id="footer" class="mt-3">
+  <div class="bg-cafe text-white text-center py-3">
+    (c) 2026 ñamñam Club
+  </div>
+  <div class="bg-cafe text-white text-center py-3">
+    <a href="https://www.instagram.com/namclubmorelia/" target="_blank" class="text-white">Instagram</a>
+  </div>
+</footer>
 </body>
 </html>
