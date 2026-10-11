@@ -5,4 +5,10 @@ window.onload = function () {
   menuToggle.addEventListener("click", () => {
     mobileMenu.style.display = mobileMenu.style.display === "block" ? "none" : "block";
   });
+
+  document.querySelectorAll(".closeMenu").forEach(link => {
+    link.addEventListener("click", () => {
+      mobileMenu.style.display = "none";
+    });
+  });
 };
