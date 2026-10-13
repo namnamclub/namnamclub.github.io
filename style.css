@@ -81,7 +81,7 @@ header{
 section{
   padding-top: 40px;
 }
-section center{
+section .subtitulo{
   position: sticky;
   top:60px;
   z-index: 1;
@@ -104,4 +104,23 @@ article.card{
 article.card:hover{
   box-shadow: 2px 2px 5px var(--color-cafe-dark), 3px 3px 12px var(--color-cafe-dark);
   transform: scale(1.05);
+}
+article.card .espaciar{
+  display: flex;
+  align-content: stretch;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: space-between;
+}
+article.card .card-text{
+  text-align: justify;
+}
+
+article.card .precio{
+  position: relative;
+  width: calc(100% - 0.5rem);
+  bottom: 0px;
+}
+article.card .precio b{
+  display: inline-block;
 }
