@@ -12,7 +12,7 @@
 }
 
 html {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .bg-crema-light{
@@ -102,7 +102,7 @@ section .subtitulo{
 }
 section .subtitulo h1{
   background: var(--color-verde-bosque);
-  /* display: inline; */
+  box-shadow: 0px 5px 6px #00000047;
   padding: 0 2rem;
 }
 /* section .subtitulo div{
