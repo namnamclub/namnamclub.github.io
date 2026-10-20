@@ -98,7 +98,7 @@ section .subtitulo{
 }
 section .subtitulo h1{
   background: var(--color-verde-bosque);
-  display: inline;
+  /* display: inline; */
   padding: 0 2rem;
 }
 /* section .subtitulo div{
