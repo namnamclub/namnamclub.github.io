@@ -94,8 +94,18 @@ section .subtitulo{
     3px 0px 0 var(--color-verde-bosque),
     0px -3px 0 var(--color-verde-bosque),
     0px 3px 0 var(--color-verde-bosque);
-  background-color: var(--color-verde-bosque);
+  /* background-color: var(--color-verde-bosque); */
 }
+section .subtitulo h1{
+  background: var(--color-verde-bosque);
+  display: inline;
+  padding: 0 2rem;
+}
+/* section .subtitulo div{
+  background: var(--color-verde-bosque);
+  display: inline;
+  padding: 0 1rem;
+} */
 article.card{
  transition: transform 0.3s ease, box-shadow 0.3s ease;
  margin: 1rem 0 0 1rem;
@@ -123,4 +133,18 @@ article.card .precio{
 }
 article.card .precio b{
   display: inline-block;
+}
+
+.sep4-amarillo{
+  position: relative;
+  height: 70px;
+  margin: 1rem 0;
+  padding: 0 1rem;
+}
+.sep4-amarillo img{
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 100%;
+  max-width: 100%;
 }
