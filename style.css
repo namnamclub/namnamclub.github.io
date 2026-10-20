@@ -11,6 +11,10 @@
   --color-cafe-dark:#4a2c1d;
 }
 
+html {
+    font-size: 20px;
+}
+
 .bg-crema-light{
   background-color: var(--color-crema-light);
 }
