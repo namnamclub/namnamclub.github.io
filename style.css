@@ -6,6 +6,7 @@
   --color-crema-light:#f3f2e7;
   --color-crema:#efebcf;
   --color-amarillo:#e2c389;
+  --color-amarillo-light:#f0d9a5;
   --color-verde-bosque:#445e20;
   --color-cafe:#653e2e;
   --color-cafe-dark:#4a2c1d;
@@ -151,4 +152,31 @@ article.card .precio b{
   transform: translateX(-50%);
   height: 100%;
   max-width: 100%;
+}
+
+a img:hover{
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  filter: drop-shadow(2px 4px 6px black);
+  transform: scale(1.05);
+}
+
+.link-amarillo{
+  color: var(--color-amarillo);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.link-amarillo:hover{
+  color: var(--color-amarillo-light);
+}
+.link-amarillo::before{
+  /* https://www.svgrepo.com/svg/378646/link-chain */
+  -webkit-mask: url('img/link-chain-svgrepo-com.svg') no-repeat center / contain;
+  mask: url('img/link-chain-svgrepo-com.svg') no-repeat center / contain;
+
+  content: "";
+  width: 15px;
+  height: 15px;
+  background: var(--color-amarillo);
+  display: inline-block;
+  top: 0px;
+  left: -10px;
 }
