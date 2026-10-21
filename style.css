@@ -101,7 +101,8 @@ section .subtitulo{
     0px 3px 0 var(--color-verde-bosque);
   /* background-color: var(--color-verde-bosque); */
 }
-section .subtitulo h1{
+section .subtitulo h1,
+section .subtitulo h2{
   background: var(--color-verde-bosque);
   box-shadow: 0px 5px 6px #00000047;
   padding: 0 2rem;
